@@ -1,7 +1,4 @@
---[[
-Cảm Ơn Bạn Đã Sử Dụng Dịch Vụ Tiến Tiny Chấm Sờ Pây, Chúc Bạn Có 1 Trải Nghiệm Vui Vẻ.
-Nếu Có Lỗi Hoặc Cần Hỗ Trợ Hãy Liên Hệ Trên Web Nhé, Bạn Có Thể Pr Cho Bạn Bè Nữa Càng Tốt:D
-Website: tientiny.space
+--[script by haidepzai
 ]]--
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
@@ -9,8 +6,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "haidz|by haideptrai",
-    SubTitle = "Version 2.5",
+    Title = "haidepzai|by haideptrai",
+    SubTitle = "haiyeuemma",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true,
@@ -7264,10 +7261,10 @@ spawn(function()
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
             })
-        elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
+        elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=94046018671411" then
             Hop()
             Fluent:Notify({
-                Title = "Fai Fao Hub",
+                Title = "HaiDepZai Hub",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7301,11 +7298,11 @@ spawn(function()
 end)
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------
-InterfaceManager:SetFolder("FaiFaoScriptHub")
-SaveManager:SetFolder("FaiFaoScriptHub/specific-game")
+InterfaceManager:SetFolder("HaiDepZaiScriptHub")
+SaveManager:SetFolder("HaiDepZaiScriptHub/specific-game")
 Window:SelectTab(1)
 Fluent:Notify({
-    Title = "Fai Fao Hub",
+    Title = "HaiDepZai Hub",
     Content = "The script has been loaded.",
     Duration = 8
 })
